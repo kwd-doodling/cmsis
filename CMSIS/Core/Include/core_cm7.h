@@ -2229,10 +2229,7 @@ __STATIC_INLINE uint32_t SCB_GetFPUType(void)
 
 /* ##########################  Cache functions  #################################### */
 
-#if ((defined (__ICACHE_PRESENT) && (__ICACHE_PRESENT == 1U)) || \
-     (defined (__DCACHE_PRESENT) && (__DCACHE_PRESENT == 1U)))
 #include "cachel1_armv7.h"
-#endif
 
 
 /* ##################################    SysTick function  ############################################ */
